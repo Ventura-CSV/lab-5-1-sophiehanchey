@@ -1,18 +1,26 @@
+def 	getinput():
 
-numbers = [     [99, 11, 66, 86, 55],
-               [44, 21, 65, 88, 24],
-               [33, 77, 32, 33, 34]]
+	# ******************************
+	# Make your Code
+	# ******************************
+
+def 	getsum(v1, v2):
+	# ******************************
+	# Make your Code
+	# ******************************
+
+def	printval(v1, v2, total):
+	# ******************************
+	# Make your Code
+	# ******************************
+
+def 	main():
+	# ******************************
+	# Make your Code
+	# ******************************
 
 
-rnum = len(numbers)
-cnum = len(numbers[0])
+if __name__ == '__main__':
+	main()
+	
 
-print ('Sum of rows: ', end=' ')
-for i in range(rnum):
-	rsum = sum(numbers[i])
-	print (rsum, end=' ')
-print()
-
-# ******************************
-# Make your Code
-# ******************************

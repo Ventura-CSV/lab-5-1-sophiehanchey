@@ -17,9 +17,10 @@ def printval(v1, v2, total):
 
 
 def main():
-    # ******************************
-    # Make your Code
-    # ******************************
+    userval1 = getinput()
+    userval2 = getinput()
+    total = getsum(userval1, userval2)
+    printval(userval1, userval2, total)
 
 
 if __name__ == '__main__':
